@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C52BA2A7-CA61-4C1E-969E-165D4E3C2822"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Models/App manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "updateEmail(newEmail:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A - dd11db54982979ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2864">
+               </Location>
+               <Location
+                  uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A - dd11db549829784d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "2744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Models/App manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "updateEmail(newEmail:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162 - dd11db54982979ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "2864">
+               </Location>
+               <Location
+                  uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162 - dd11db549829784d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "2744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C283E037-66F5-4920-91B5-403C89578B25"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Models/App manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "updateEmail(newEmail:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - e1650401a02df963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1872">
+               </Location>
+               <Location
+                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - e1650401a02df900"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1872">
+               </Location>
+               <Location
+                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - dd11db5498297510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1936">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Models/App manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateEmail(newEmail:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - e1650401a02dfe08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - e1650401a02dfe29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - dd11db5498297239"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
