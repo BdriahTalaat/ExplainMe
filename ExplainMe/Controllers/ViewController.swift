@@ -35,6 +35,7 @@ class ViewController: UIViewController {
                 
                 AppManager.shared.listen {
                     DispatchQueue.main.async {
+                        //self.navigationController?.pushViewController(vc, animated: false)
                         self.present(vc, animated: false)
                     }
                 }
@@ -49,12 +50,18 @@ class ViewController: UIViewController {
     @IBAction func LoginButton(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(identifier: "Login screen") as! LoginViewController as LoginViewController
         
-        present(vc, animated: false)
+        navigationItem.backButtonTitle = ""
+        vc.navigationItem.title = "ExplainMe"
+        navigationController?.pushViewController(vc, animated: false)
+        
+        //present(vc, animated: false)
     }
     @IBAction func SignUpButton(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(identifier: "Sign up screen") as! SignUpViewController
         
-        present(vc, animated: false)
+        vc.navigationItem.title = "ExplainMe"
+        navigationController?.pushViewController(vc, animated: false)
+        //present(vc, animated: false)
     }
     
 }

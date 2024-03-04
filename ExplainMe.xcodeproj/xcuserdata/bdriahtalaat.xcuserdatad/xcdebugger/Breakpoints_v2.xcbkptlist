@@ -226,5 +226,53 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/VideoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "sendButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B - 8f07d64326b6c97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.VideoViewController.sendButton(Any) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/VideoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B - 8f07d64326b6c97"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.VideoViewController.sendButton(Any) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/VideoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "1040">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

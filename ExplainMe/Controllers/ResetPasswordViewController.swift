@@ -25,10 +25,6 @@ class ResetPasswordViewController: UIViewController {
     
     //MARK: ACTIONS
     
-    @IBAction func backButton(_ sender: UIButton) {
-        dismiss(animated: false)
-    }
-    
     @IBAction func sendInstructionButton(_ sender: UIButton) {
         let alert = UIAlertController(title: "Reset Password", message: "Are you sure you want reset password", preferredStyle: .alert)
         let cancelAction = UIAlertAction(title: "Cancel", style: .destructive){_ in

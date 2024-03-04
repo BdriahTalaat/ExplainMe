@@ -40,15 +40,15 @@ class LoginViewController: UIViewController {
                
                 if user != nil{
                     
-                    self?.emailTextField.text = ""
-                    self?.passwordTextField.text = ""
-                    
                     let vc = self?.storyboard?.instantiateViewController(identifier: "tab bar screen") as! UITabBarController
                    
                     AppManager.shared.listen {
                         DispatchQueue.main.async {
-                            
+                            //self!.navigationController?.pushViewController(vc, animated: false)
                             self!.present(vc, animated: false)
+                            
+                            self?.emailTextField.text = ""
+                            self?.passwordTextField.text = ""
                         }
                     }
                     
@@ -71,17 +71,18 @@ class LoginViewController: UIViewController {
     @IBAction func SignUpButton(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(identifier: "Sign up screen") as! SignUpViewController
         
-        present(vc, animated: false)
+        vc.navigationItem.title = "ExplainMe"
+        navigationController?.pushViewController(vc, animated: false)
+        //present(vc, animated: false)
     }
     
-    @IBAction func backButton(_ sender: UIButton) {
-        dismiss(animated: false)
-    }
     
     @IBAction func ResetPasswordButton(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(identifier: "Reset Password") as! ResetPasswordViewController
         
-        present(vc, animated: false)
+        vc.navigationItem.title = "ExplainMe"
+        navigationController?.pushViewController(vc, animated: false)
+        //present(vc, animated: false)
     }
     
     @IBAction func seePasswordAction(_ sender: UIButton) {

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69384F522B949383005583E6 /* OpenAi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F512B949383005583E6 /* OpenAi.swift */; };
+		69384F562B9493DE005583E6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 69384F552B9493DE005583E6 /* Alamofire */; };
+		69384F582B9493F4005583E6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F572B9493F4005583E6 /* API.swift */; };
+		69384F5A2B949402005583E6 /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F592B949402005583E6 /* OpenAI.swift */; };
+		69384F5E2B94DF3C005583E6 /* AssistantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */; };
+		69384F602B95AB36005583E6 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F5F2B95AB36005583E6 /* Chat.swift */; };
+		69384F642B9656DC005583E6 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F632B9656DC005583E6 /* Download.swift */; };
 		694807BF2B591209000AEEC5 /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */; };
 		694807C12B59C692000AEEC5 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */; };
 		694807C42B5D14BD000AEEC5 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 694807C32B5D14BD000AEEC5 /* IQKeyboardManagerSwift */; };
@@ -15,6 +22,9 @@
 		695657122B5E7A970040D532 /* Firebase manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695657112B5E7A970040D532 /* Firebase manager.swift */; };
 		695657162B6231350040D532 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695657152B6231350040D532 /* HelpViewController.swift */; };
 		695657192B6238270040D532 /* YoutubePlayerView in Frameworks */ = {isa = PBXBuildFile; productRef = 695657182B6238270040D532 /* YoutubePlayerView */; };
+		6956571C2B70BC8B0040D532 /* BonsaiController in Frameworks */ = {isa = PBXBuildFile; productRef = 6956571B2B70BC8B0040D532 /* BonsaiController */; };
+		6956571E2B7229F10040D532 /* sampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956571D2B7229F00040D532 /* sampleViewController.swift */; };
+		695657212B722A2E0040D532 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 695657202B722A2E0040D532 /* SwiftOpenAI */; };
 		695941602B590C9500E34446 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6959415F2B590C9400E34446 /* FirebaseAuthCombine-Community */; };
 		695941622B590C9500E34446 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 695941612B590C9500E34446 /* FirebaseFirestoreCombine-Community */; };
 		696718342B56483D00C57930 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696718332B56483D00C57930 /* VideoViewController.swift */; };
@@ -85,12 +95,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		69384F512B949383005583E6 /* OpenAi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAi.swift; sourceTree = "<group>"; };
+		69384F572B9493F4005583E6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		69384F592B949402005583E6 /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantTableViewCell.swift; sourceTree = "<group>"; };
+		69384F5F2B95AB36005583E6 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		69384F632B9656DC005583E6 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
 		694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		6956570D2B5E39790040D532 /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
 		6956570F2B5E795B0040D532 /* App manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App manager.swift"; sourceTree = "<group>"; };
 		695657112B5E7A970040D532 /* Firebase manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase manager.swift"; sourceTree = "<group>"; };
 		695657152B6231350040D532 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		6956571D2B7229F00040D532 /* sampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleViewController.swift; sourceTree = "<group>"; };
 		696718232B551BAC00C57930 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		696718262B551BAC00C57930 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
 		696718292B551BAC00C57930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -131,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6956571C2B70BC8B0040D532 /* BonsaiController in Frameworks */,
 				6967183E2B57BA0600C57930 /* NVActivityIndicatorViewExtended in Frameworks */,
 				69875F792B53C16900C78255 /* GoogleSignInSwift in Frameworks */,
 				69B854B62B4587F2006BF74D /* FirebaseFirestoreSwift in Frameworks */,
@@ -139,8 +157,10 @@
 				695657192B6238270040D532 /* YoutubePlayerView in Frameworks */,
 				69B854B42B4587F2006BF74D /* FirebaseFirestore in Frameworks */,
 				69B854B82B4587F2006BF74D /* FirebaseRemoteConfig in Frameworks */,
+				69384F562B9493DE005583E6 /* Alamofire in Frameworks */,
 				694807C42B5D14BD000AEEC5 /* IQKeyboardManagerSwift in Frameworks */,
 				695941622B590C9500E34446 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				695657212B722A2E0040D532 /* SwiftOpenAI in Frameworks */,
 				6967183C2B57BA0600C57930 /* NVActivityIndicatorView in Frameworks */,
 				69B854BA2B4587F2006BF74D /* FirebaseStorage in Frameworks */,
 				69B854B02B4587F2006BF74D /* FirebaseDatabase in Frameworks */,
@@ -166,6 +186,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69384F532B94939B005583E6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				69384F572B9493F4005583E6 /* API.swift */,
+				69384F592B949402005583E6 /* OpenAI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		696718222B551BAC00C57930 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +242,7 @@
 				697078092B3F5C900014C56C /* Assets.xcassets */,
 				6970780E2B3F5C900014C56C /* Info.plist */,
 				69875F7A2B53C4C800C78255 /* GoogleService-Info.plist */,
+				69384F532B94939B005583E6 /* Network */,
 				69B854BB2B53AEF5006BF74D /* Models */,
 				69B8549B2B442073006BF74D /* Extentions */,
 				69B854922B441BD5006BF74D /* Controllers */,
@@ -245,6 +275,7 @@
 				697078002B3F5C8F0014C56C /* AppDelegate.swift */,
 				697078062B3F5C8F0014C56C /* Main.storyboard */,
 				6970780B2B3F5C900014C56C /* LaunchScreen.storyboard */,
+				69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */,
 				694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */,
 				694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */,
 				6956570D2B5E39790040D532 /* ProjectCollectionViewCell.swift */,
@@ -267,6 +298,7 @@
 				69B854A42B4582B0006BF74D /* SmartAssistantViewController.swift */,
 				69B854A62B4582C0006BF74D /* QuizViewController.swift */,
 				69B854A82B4582D8006BF74D /* SummaryViewController.swift */,
+				6956571D2B7229F00040D532 /* sampleViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,6 +319,9 @@
 				69B854BC2B53AF17006BF74D /* User.swift */,
 				6956570F2B5E795B0040D532 /* App manager.swift */,
 				695657112B5E7A970040D532 /* Firebase manager.swift */,
+				69384F512B949383005583E6 /* OpenAi.swift */,
+				69384F632B9656DC005583E6 /* Download.swift */,
+				69384F5F2B95AB36005583E6 /* Chat.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -324,6 +359,9 @@
 				695941612B590C9500E34446 /* FirebaseFirestoreCombine-Community */,
 				694807C32B5D14BD000AEEC5 /* IQKeyboardManagerSwift */,
 				695657182B6238270040D532 /* YoutubePlayerView */,
+				6956571B2B70BC8B0040D532 /* BonsaiController */,
+				695657202B722A2E0040D532 /* SwiftOpenAI */,
+				69384F552B9493DE005583E6 /* Alamofire */,
 			);
 			productName = ExplainMe;
 			productReference = 697077FD2B3F5C8F0014C56C /* ExplainMe.app */;
@@ -404,6 +442,9 @@
 				6922539C2B57D5BA00323E8A /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 				694807C22B5D14BD000AEEC5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				695657172B6238270040D532 /* XCRemoteSwiftPackageReference "YoutubePlayerView" */,
+				6956571A2B70BC8B0040D532 /* XCRemoteSwiftPackageReference "Bonsai" */,
+				6956571F2B722A2E0040D532 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+				69384F542B9493DE005583E6 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 697077FE2B3F5C8F0014C56C /* Products */;
 			projectDirPath = "";
@@ -449,6 +490,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69384F522B949383005583E6 /* OpenAi.swift in Sources */,
 				6956570E2B5E39790040D532 /* ProjectCollectionViewCell.swift in Sources */,
 				69B854962B441CDD006BF74D /* LoginViewController.swift in Sources */,
 				69B854A92B4582D8006BF74D /* SummaryViewController.swift in Sources */,
@@ -456,21 +498,27 @@
 				697078012B3F5C8F0014C56C /* AppDelegate.swift in Sources */,
 				695657122B5E7A970040D532 /* Firebase manager.swift in Sources */,
 				696718342B56483D00C57930 /* VideoViewController.swift in Sources */,
+				69384F582B9493F4005583E6 /* API.swift in Sources */,
+				69384F642B9656DC005583E6 /* Download.swift in Sources */,
 				694807C12B59C692000AEEC5 /* ChatTableViewCell.swift in Sources */,
 				695657102B5E795B0040D532 /* App manager.swift in Sources */,
 				69B854A72B4582C0006BF74D /* QuizViewController.swift in Sources */,
+				69384F5A2B949402005583E6 /* OpenAI.swift in Sources */,
 				69B8549F2B45822F006BF74D /* HomeViewController.swift in Sources */,
+				69384F602B95AB36005583E6 /* Chat.swift in Sources */,
 				69B854BD2B53AF17006BF74D /* User.swift in Sources */,
 				694807BF2B591209000AEEC5 /* QuizTableViewCell.swift in Sources */,
 				69B8549A2B441D26006BF74D /* ResetPasswordViewController.swift in Sources */,
 				69B854A52B4582B0006BF74D /* SmartAssistantViewController.swift in Sources */,
 				697078032B3F5C8F0014C56C /* SceneDelegate.swift in Sources */,
 				696718362B5694E300C57930 /* Extention TextField.swift in Sources */,
+				69384F5E2B94DF3C005583E6 /* AssistantTableViewCell.swift in Sources */,
 				69B854A32B458293006BF74D /* ProjectsViewController.swift in Sources */,
 				69B854A12B458267006BF74D /* ProfileViewController.swift in Sources */,
 				69B854982B441CFA006BF74D /* SignUpViewController.swift in Sources */,
 				69B8549D2B4420CB006BF74D /* Extention View.swift in Sources */,
 				695657162B6231350040D532 /* HelpViewController.swift in Sources */,
+				6956571E2B7229F10040D532 /* sampleViewController.swift in Sources */,
 				696718382B569F2F00C57930 /* Extention View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -848,6 +896,14 @@
 				minimumVersion = 14.1.0;
 			};
 		};
+		69384F542B9493DE005583E6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
 		694807C22B5D14BD000AEEC5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
@@ -862,6 +918,22 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.2.1;
+			};
+		};
+		6956571A2B70BC8B0040D532 /* XCRemoteSwiftPackageReference "Bonsai" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rishi420/Bonsai";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.2;
+			};
+		};
+		6956571F2B722A2E0040D532 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftBeta/SwiftOpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
 			};
 		};
 		6967183A2B57BA0600C57930 /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
@@ -891,6 +963,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		69384F552B9493DE005583E6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69384F542B9493DE005583E6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 		694807C32B5D14BD000AEEC5 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 694807C22B5D14BD000AEEC5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
@@ -900,6 +977,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 695657172B6238270040D532 /* XCRemoteSwiftPackageReference "YoutubePlayerView" */;
 			productName = YoutubePlayerView;
+		};
+		6956571B2B70BC8B0040D532 /* BonsaiController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6956571A2B70BC8B0040D532 /* XCRemoteSwiftPackageReference "Bonsai" */;
+			productName = BonsaiController;
+		};
+		695657202B722A2E0040D532 /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6956571F2B722A2E0040D532 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
 		};
 		6959415F2B590C9400E34446 /* FirebaseAuthCombine-Community */ = {
 			isa = XCSwiftPackageProductDependency;

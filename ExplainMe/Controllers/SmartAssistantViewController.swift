@@ -23,11 +23,19 @@ class SmartAssistantViewController: UIViewController {
     //MARK: VARIABLES
     var message:[String]? = []
     var index = 0
+    override var sheetPresentationController: UISheetPresentationController{
+        presentationController as! UISheetPresentationController
+    }
     
     //MARK: LIFE CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        sheetPresentationController.delegate = self
+        sheetPresentationController.selectedDetentIdentifier = .medium
+        sheetPresentationController.prefersGrabberVisible = true
+        sheetPresentationController.detents = [.medium(),.large()]
+        
         messageTextView.setCircle(View: messageTextView, value: 5)
         methodView.setCircle(View: methodView, value: 12)
         imageView.setCircle(View: imageView, value: 2)
@@ -126,4 +134,8 @@ extension SmartAssistantViewController: UITextViewDelegate {
         }
     }
    
+}
+
+extension SmartAssistantViewController:UISheetPresentationControllerDelegate{
+    
 }

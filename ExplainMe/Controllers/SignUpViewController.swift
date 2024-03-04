@@ -58,6 +58,7 @@ class SignUpViewController: UIViewController {
                    
                     AppManager.shared.listen {
                         DispatchQueue.main.async {
+                            //self.navigationController?.pushViewController(vc, animated: false)
                             self.present(vc, animated: false)
                         }
                     }
@@ -104,12 +105,10 @@ class SignUpViewController: UIViewController {
     @IBAction func LoginButton(_ sender: UIButton) {
         let vc = storyboard?.instantiateViewController(identifier: "Login screen") as! LoginViewController
         
-        present(vc, animated: false)
+        navigationController?.pushViewController(vc, animated: false)
+        //present(vc, animated: false)
     }
     
-    @IBAction func backButton(_ sender: UIButton) {
-        dismiss(animated: false)
-    }
     
     @IBAction func seePasswordButton(_ sender: Any) {
         passwordTextField.privatePassword(txtField: passwordTextField, button: seePaswordButton, icon1: "eye.slash.circle", icon2: "eye.circle")

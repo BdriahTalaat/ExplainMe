@@ -58,8 +58,15 @@ class HomeViewController: UIViewController {
             let vc = storyboard!.instantiateViewController(withIdentifier: "video screen") as! VideoViewController
             
             vc.videoLink = videoID
-            navigationController?.pushViewController(vc, animated: false)
-            videoLinkTextField.text = nil
+            
+            loaderView.startAnimating()
+            
+            OpenAi.tranciption(file: "") { response in
+                vc.transcribe = "\(response)"
+                self.loaderView.stopAnimating()
+                self.navigationController?.pushViewController(vc, animated: false)
+                self.videoLinkTextField.text = nil
+            }
             
         } else {
            
