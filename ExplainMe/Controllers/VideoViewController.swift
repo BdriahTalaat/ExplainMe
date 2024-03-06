@@ -112,8 +112,6 @@ class VideoViewController: UIViewController {
     
     @IBAction func smartAssistantButton(_ sender: Any) {
         
-       let vc = storyboard!.instantiateViewController(withIdentifier: "smart assistant screen") as! SmartAssistantViewController
-
         smartAssistantView.isHidden = false
         
     }

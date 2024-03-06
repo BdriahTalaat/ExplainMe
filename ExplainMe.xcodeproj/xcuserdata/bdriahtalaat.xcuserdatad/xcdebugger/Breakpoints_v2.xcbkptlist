@@ -236,8 +236,8 @@
             filePath = "ExplainMe/Controllers/VideoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "149"
-            endingLineNumber = "149"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "sendButton(_:)"
             landmarkType = "7">
             <Locations>
@@ -270,6 +270,118 @@
                   startingLineNumber = "169"
                   endingLineNumber = "169"
                   offsetFromSymbolStart = "1040">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A5631188-FE8D-4D08-819C-A173C60BB112"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/QuizViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "submitButton(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5631188-FE8D-4D08-819C-A173C60BB112 - f292b3aa8a5f63d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.QuizViewController.submitButton(Any) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "A5631188-FE8D-4D08-819C-A173C60BB112 - 27bd71e0b46ce3e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.QuizViewController.submitButton(Any) -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/QuizViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C438C6C4-E6AF-476A-862A-67D56EB73DC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "submitButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E - 1dd1ac54c785e14f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExplainMe.SummaryViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1408">
+               </Location>
+               <Location
+                  uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E - 69c64e317b5b3679"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.SummaryViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ExplainMe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/SummaryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "796">
                </Location>
             </Locations>
          </BreakpointContent>

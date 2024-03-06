@@ -23,7 +23,6 @@
 		695657162B6231350040D532 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695657152B6231350040D532 /* HelpViewController.swift */; };
 		695657192B6238270040D532 /* YoutubePlayerView in Frameworks */ = {isa = PBXBuildFile; productRef = 695657182B6238270040D532 /* YoutubePlayerView */; };
 		6956571C2B70BC8B0040D532 /* BonsaiController in Frameworks */ = {isa = PBXBuildFile; productRef = 6956571B2B70BC8B0040D532 /* BonsaiController */; };
-		6956571E2B7229F10040D532 /* sampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956571D2B7229F00040D532 /* sampleViewController.swift */; };
 		695657212B722A2E0040D532 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 695657202B722A2E0040D532 /* SwiftOpenAI */; };
 		695941602B590C9500E34446 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 6959415F2B590C9400E34446 /* FirebaseAuthCombine-Community */; };
 		695941622B590C9500E34446 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 695941612B590C9500E34446 /* FirebaseFirestoreCombine-Community */; };
@@ -107,7 +106,6 @@
 		6956570F2B5E795B0040D532 /* App manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "App manager.swift"; sourceTree = "<group>"; };
 		695657112B5E7A970040D532 /* Firebase manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase manager.swift"; sourceTree = "<group>"; };
 		695657152B6231350040D532 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
-		6956571D2B7229F00040D532 /* sampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleViewController.swift; sourceTree = "<group>"; };
 		696718232B551BAC00C57930 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		696718262B551BAC00C57930 /* AccountAuthenticationModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAuthenticationModificationViewController.swift; sourceTree = "<group>"; };
 		696718292B551BAC00C57930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
@@ -298,7 +296,6 @@
 				69B854A42B4582B0006BF74D /* SmartAssistantViewController.swift */,
 				69B854A62B4582C0006BF74D /* QuizViewController.swift */,
 				69B854A82B4582D8006BF74D /* SummaryViewController.swift */,
-				6956571D2B7229F00040D532 /* sampleViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -518,7 +515,6 @@
 				69B854982B441CFA006BF74D /* SignUpViewController.swift in Sources */,
 				69B8549D2B4420CB006BF74D /* Extention View.swift in Sources */,
 				695657162B6231350040D532 /* HelpViewController.swift in Sources */,
-				6956571E2B7229F10040D532 /* sampleViewController.swift in Sources */,
 				696718382B569F2F00C57930 /* Extention View Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

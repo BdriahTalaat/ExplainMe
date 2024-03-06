@@ -66,6 +66,7 @@ class HomeViewController: UIViewController {
                 self.loaderView.stopAnimating()
                 self.navigationController?.pushViewController(vc, animated: false)
                 self.videoLinkTextField.text = nil
+                
             }
             
         } else {

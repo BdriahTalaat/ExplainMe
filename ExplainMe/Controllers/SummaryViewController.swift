@@ -34,6 +34,10 @@ class SummaryViewController: UIViewController {
         OpenAi.summary(text: transcibe) { response in
             
             self.summaryTextView.text = response as! String
+            let text = response as! String
+            let words = text.split(separator: "\n").map { String($0) }
+            
+            print(words)
             self.loaderView.stopAnimating()
         }
         

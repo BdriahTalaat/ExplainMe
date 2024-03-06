@@ -88,7 +88,7 @@ class OpenAi:API {
         let parameters:[String:Any] =
         [
             "model":"gpt-3.5-turbo",
-            "messages":[["role": "user","content": "Summarize the following video \(text)"]]
+            "messages":[["role": "user","content": "Summarize as table formate the following video \(text)"]]
             
         ]
         
@@ -115,7 +115,7 @@ class OpenAi:API {
         let parameters:[String:Any] =
         [
             "model":"gpt-3.5-turbo",
-            "messages":[["role": "user","content": "Generate open end quiz questions and answer based on the following video \(text)"]]
+            "messages":[["role": "user","content": "Generate open end quiz questions based on the following video \(text)"]]
             
         ]
         
@@ -133,5 +133,28 @@ class OpenAi:API {
         }
     }
     
+    static func answer(text:Any , completionHandler : @escaping(Any)->()){
+        
+        let URLChat = "\(baseURL)chat/completions"
+        let parameters:[String:Any] =
+        [
+            "model":"gpt-3.5-turbo",
+            "messages":[["role": "user","content": "\(text)"]]
+            
+        ]
+        
+        AF.request(URLChat, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers).responseJSON { response in
+            
+            
+            do {
+                let message =  try JSONDecoder().decode(SmartAssistantModel.self, from: response.data!)
+                //print(message.choices.first?.message.content)
+                completionHandler(message.choices.first?.message.content)
+                
+            }catch let error {
+                print(error)
+            }
+        }
+    }
 }
 
