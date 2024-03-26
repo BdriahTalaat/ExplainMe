@@ -46,36 +46,54 @@ class SignUpViewController: UIViewController {
     @IBAction func SignUpButton(_ sender: UIButton) {
         
         if let email = emailTextField.text , let password = passwordTextField.text , let username = userNameTextField.text{
-           
-            Auth.auth().createUser(withEmail: email, password: password) { [self] user, error in
-                
-                guard let uid = FirebaseManeger.shared.auth.currentUser?.uid else{ return }
-                
-                if user != nil {
-                    let vc = self.storyboard?.instantiateViewController(identifier: "tab bar screen") as! UITabBarController
+            
+            do{
+                Auth.auth().createUser(withEmail: email, password: password) { [self] user, error in
                     
-                    AppManager.shared.createUser(name: username, email: email, uid: uid)
-                   
-                    AppManager.shared.listen {
-                        DispatchQueue.main.async {
-                            //self.navigationController?.pushViewController(vc, animated: false)
-                            self.present(vc, animated: false)
+                    guard let uid = FirebaseManeger.shared.auth.currentUser?.uid else{
+                        //print(error?.localizedDescription.description)
+                        
+                        let alert = UIAlertController(title: "Error", message: "\(error!.localizedDescription.description)", preferredStyle: .alert)
+                        let okAction = UIAlertAction(title: "Ok", style: .default){ _ in
+                            self.emailTextField.text = ""
+                            self.passwordTextField.text  = ""
+                            self.userNameTextField.text = ""
                         }
-                    }
-
-                    
-
-                }else {
-                    let alert = UIAlertController(title: "Error", message: "\(error!.localizedDescription.description)", preferredStyle: .alert)
-                    let okAction = UIAlertAction(title: "Ok", style: .default){ _ in
-                        self.emailTextField.text = ""
-                        self.passwordTextField.text  = ""
-                        self.userNameTextField.text = ""
+                        
+                        alert.addAction(okAction)
+                        self.present(alert, animated: true)
+                        
+                        return
                     }
                     
-                    alert.addAction(okAction)
-                    self.present(alert, animated: true)
+                    if user != nil {
+                        let vc = self.storyboard?.instantiateViewController(identifier: "tab bar screen") as! UITabBarController
+                        
+                        AppManager.shared.createUser(name: username, email: email, uid: uid)
+                        
+                        AppManager.shared.listen {
+                            DispatchQueue.main.async {
+                                //self.navigationController?.pushViewController(vc, animated: false)
+                                self.present(vc, animated: false)
+                            }
+                        }
+                        
+                        
+                        
+                    }else {
+                        let alert = UIAlertController(title: "Error", message: "\(error!.localizedDescription.description)", preferredStyle: .alert)
+                        let okAction = UIAlertAction(title: "Ok", style: .default){ _ in
+                            self.emailTextField.text = ""
+                            self.passwordTextField.text  = ""
+                            self.userNameTextField.text = ""
+                        }
+                        
+                        alert.addAction(okAction)
+                        self.present(alert, animated: true)
+                    }
                 }
+            }catch (let error){
+                print(error)
             }
         }
     }

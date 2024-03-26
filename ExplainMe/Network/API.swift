@@ -10,9 +10,11 @@ import Alamofire
 
 class API{
     
-    static let Authorization = "Bearer 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"
+    static let Authorization = "Bearer your-apiKey"
     static let baseURL = "https://api.openai.com/v1/"
     static let headers : HTTPHeaders = ["Authorization": Authorization]
 
-    
 }
+
+
+

@@ -12,8 +12,139 @@ import FirebaseAuth
 class AppManager{
     static let shared = AppManager()
     var users : [User] = []
+    var videos : [Videos] = []
+    
     
     //MARK: FUNCTIONS
+    
+    func getVideoData(completion: @escaping ([Video]) -> ()){
+        
+        var videos: [Video] = []
+
+        guard let userID = FirebaseManeger.shared.auth.currentUser?.uid else { return }
+
+        FirebaseManeger.shared.firestore.collection("videos").document(userID).collection("video").getDocuments { (querySnapshot, error) in
+            if let error = error {
+                print("Error fetching documents: \(error)")
+                return
+            }
+
+            guard let documents = querySnapshot?.documents else {
+                print("No documents found")
+                return
+            }
+
+            for document in documents {
+                let data = document.data()
+                
+                let summary = data["summary"] as? String ?? ""
+                let quiz = data["quiz"] as? [String] ?? []
+                let videoTitle = document.documentID // Assuming documentID is the videoTitle
+                let videoURL = data["videoURL"] as? String ?? ""
+                let answer = data["answer"] as? [String] ?? []
+                let video = Video(summary: summary, quiz: quiz, answer:answer, videoTitle: videoTitle, videoURL: videoURL)
+                
+                videos.append(video)
+            }
+
+            
+            completion(videos)
+        }
+        
+    }
+    
+    func add1(summary: String?, quiz: [String]?, videoURL: String,answer:[String]?, videoTitle: String?, _ completion: @escaping (Any) -> ()) {
+        guard let userID = FirebaseManeger.shared.auth.currentUser?.uid else { return }
+        
+        let video = Video(summary: summary, quiz: quiz, answer:answer, videoTitle: videoTitle, videoURL: videoURL)
+        // Assuming `videoTitle` is unique for each video
+        let videoDocRef = FirebaseManeger.shared.firestore.collection("videos").document(userID).collection("video").document(videoTitle!)
+
+        // Save the video data
+        videoDocRef.setData([
+            "summary": video.summary ?? "",
+            "quiz": video.quiz ?? [],
+            "answer":video.answer ?? [],
+            "videoURL": video.videoURL
+        ]) { error in
+            if let error = error {
+                print("Error adding document: \(error)")
+            } else {
+                print("Document added successfully")
+                
+                
+                // Add a listener to the document reference
+                  videoDocRef.addSnapshotListener { documentSnapshot, error in
+                      guard let document = documentSnapshot else {
+                          print("Error fetching document: \(error!)")
+                          return
+                      }
+                      guard let data = document.data() else {
+                          print("Document data was empty.")
+                          return
+                      }
+                      let summary = data["summary"] as? String ?? ""
+                      let quiz = data["quiz"] as? [String] ?? []
+                      let videoURL = data["videoURL"] as? String ?? ""
+                      let answer = data["answer"] as? [String] ?? []
+                      completion(data)
+                  }
+               
+            }
+        }
+
+    }
+    
+    // send action
+    func send (videos : Videos , video : Video ){
+        guard let docId = videos.DocId else{ return }
+        
+        do{
+            _ = try FirebaseManeger.shared.firestore.collection("videos").document(docId).collection("video").addDocument(from: video)
+        }catch{
+            print(error.localizedDescription)
+        }
+    }
+    
+    
+    //create video
+    func createVideo(summary:String? ,quiz:[String]? ,videoURL:String ,videoTitle:String?  , _ completion: @escaping () -> ()){
+       
+        guard let userID = FirebaseManeger.shared.auth.currentUser?.uid  else{ return }
+       // guard let docId = videos.DocId else{ return }
+        
+        Task{
+            
+            let video = Video(summary: summary,quiz: quiz, videoTitle: videoTitle, videoURL: videoURL)
+                
+            guard let userID = FirebaseManeger.shared.auth.currentUser?.uid  else{ return }
+            let userRef = FirebaseManeger.shared.firestore.collection("videos").addDocument(data: ["userID":userID])
+
+            // Assuming you want to fetch a single document
+            let docRef = FirebaseManeger.shared.firestore.collection("videos").document("your_document_id")
+
+            do {
+                // Add the videos to Firestore
+                _ = try FirebaseManeger.shared.firestore.collection("videos").addDocument(data: ["user":userID]).collection("video").document(videoTitle!).setData(["summary":video.summary,"quiz":video.quiz ,"videoURL":video.videoURL]) { error in
+                    
+                    if let error = error {
+                        print("Error adding document: \(error)")
+                        
+                    } else {
+                        print("Document added successfully")
+                        
+                        self.listen {
+                            completion()
+                        }
+                    }
+                }
+            } catch {
+                print("Error encoding videos: \(error)")
+            }
+               
+        }
+    }
+    
     
     //create user
     func createUser(name:String , email:String , uid:String){
@@ -68,16 +199,7 @@ class AppManager{
                             }
                         }
                     }
-                   /*
-                    current?.updateEmail(to: email){ error in
-                        if error != nil{
-                            print(error?.localizedDescription.description)
-                            print(current?.email)
-                        }else{
-                            print(current?.email)
-                        }
-                        
-                    }*/
+                  
                 }
                 break
             }
@@ -150,12 +272,38 @@ class AppManager{
     
     func listen (_ completion: @escaping () -> ()){
         
-        guard let userID = FirebaseManeger.shared.auth.currentUser?.uid  else { return }
+        guard let userId = FirebaseManeger.shared.auth.currentUser?.uid  else { return }
         
         Task{
             await getAllUser()
+            
+            let snapshot = try await FirebaseManeger.shared.firestore.collection("videos").whereField("users",arrayContains: userId).getDocuments(source: .server)
+            
+            
+            self.videos = try snapshot.documents.map({ try $0.data(as: Videos.self ) })
+            var usersIDs : [String] = []
+            
+            
             completion()
         }
+    }
+    
+    func extractYouTubeVideoID(from urlString: String) -> String? {
+        // Regular expression pattern for matching YouTube video IDs
+        let pattern = #"(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})"#
+        
+        do {
+            let regex = try NSRegularExpression(pattern: pattern, options: .caseInsensitive)
+            let range = NSRange(location: 0, length: urlString.utf16.count)
+            if let match = regex.firstMatch(in: urlString, options: [], range: range) {
+                let videoIDRange = Range(match.range(at: 1), in: urlString)
+                return videoIDRange.map { String(urlString[$0]) }
+            }
+        } catch {
+            print("Error creating regular expression: \(error)")
+        }
+
+        return nil
     }
     
 

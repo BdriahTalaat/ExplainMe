@@ -14,6 +14,7 @@ class ProfileViewController: UIViewController {
     //MARK: OUTLETS
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var logOutButton: UIButton!
+    @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var usernameTextField: UITextField!
     
     //MARK: VARIABLES
@@ -26,8 +27,9 @@ class ProfileViewController: UIViewController {
         logOutButton.setCircle(View: logOutButton, value: 5)
         
         if let user = user {
-
-            emailTextField.text = user.email
+            
+            emailLabel.text = user.email
+            
             usernameTextField.text = AppManager.shared.getUserData(uid: user.uid)?.userName
             print(user)
           var multiFactorString = "MultiFactor: "
@@ -49,34 +51,29 @@ class ProfileViewController: UIViewController {
         AppManager.shared.updateUsername(username: usernameTextField.text!)
     }
     
-    @IBAction func emailEditButton(_ sender: Any) {
-        
-        AppManager.shared.updateEmail(newEmail: emailTextField.text!, password: "1234567")
-    }
     
     @IBAction func logOutButton(_ sender: UIButton) {
         let alert = UIAlertController(title: "Log Out", message: "Are you ture you want log Out ? ", preferredStyle: .alert)
-            let yesAction = UIAlertAction(title: "Yes", style: .default){ _ in
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .default)
+        let yesAction = UIAlertAction(title: "Yes", style: .destructive){ _ in
                 
                 let firebaseAuth = Auth.auth()
                 do {
                     try firebaseAuth.signOut()
-                    let vc = self.storyboard?.instantiateViewController(identifier: "first screen")
                     
-                    self.navigationController?.pushViewController(vc!, animated: false)
-                   // self.present(vc!, animated: false)
+                    self.dismiss(animated: false)
                     
                 } catch let signOutError as NSError {
                   print("Error signing out: %@", signOutError)
                 }
                 
             }
-
-        let cancelAction = UIAlertAction(title: "Cancel", style: .destructive)
-            alert.addAction(yesAction)
-            alert.addAction(cancelAction)
-            
-            present(alert, animated: true)
+        
+        alert.addAction(yesAction)
+        alert.addAction(cancelAction)
+        
+        present(alert, animated: true)
         
 
     }

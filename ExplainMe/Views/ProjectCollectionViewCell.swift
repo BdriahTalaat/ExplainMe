@@ -11,5 +11,5 @@ class ProjectCollectionViewCell: UICollectionViewCell {
     
     //MARK: OUTLETS
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var projectImage: UIImageView!
+    
 }

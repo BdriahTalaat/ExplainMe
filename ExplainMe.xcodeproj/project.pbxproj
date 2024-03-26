@@ -14,6 +14,9 @@
 		69384F5E2B94DF3C005583E6 /* AssistantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */; };
 		69384F602B95AB36005583E6 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F5F2B95AB36005583E6 /* Chat.swift */; };
 		69384F642B9656DC005583E6 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69384F632B9656DC005583E6 /* Download.swift */; };
+		694747B12BA0930100C58037 /* SwiftDataTables in Frameworks */ = {isa = PBXBuildFile; productRef = 694747B02BA0930100C58037 /* SwiftDataTables */; };
+		694747B82BA4E73100C58037 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694747B72BA4E73100C58037 /* Video.swift */; };
+		694747BB2BA9C81600C58037 /* SwiftEntryKit in Frameworks */ = {isa = PBXBuildFile; productRef = 694747BA2BA9C81600C58037 /* SwiftEntryKit */; };
 		694807BF2B591209000AEEC5 /* QuizTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */; };
 		694807C12B59C692000AEEC5 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */; };
 		694807C42B5D14BD000AEEC5 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 694807C32B5D14BD000AEEC5 /* IQKeyboardManagerSwift */; };
@@ -50,7 +53,6 @@
 		69B8549F2B45822F006BF74D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B8549E2B45822F006BF74D /* HomeViewController.swift */; };
 		69B854A12B458267006BF74D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854A02B458267006BF74D /* ProfileViewController.swift */; };
 		69B854A32B458293006BF74D /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854A22B458293006BF74D /* ProjectsViewController.swift */; };
-		69B854A52B4582B0006BF74D /* SmartAssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854A42B4582B0006BF74D /* SmartAssistantViewController.swift */; };
 		69B854A72B4582C0006BF74D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854A62B4582C0006BF74D /* QuizViewController.swift */; };
 		69B854A92B4582D8006BF74D /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854A82B4582D8006BF74D /* SummaryViewController.swift */; };
 		69B854AE2B4587F2006BF74D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 69B854AD2B4587F2006BF74D /* FirebaseAuth */; };
@@ -61,6 +63,11 @@
 		69B854B82B4587F2006BF74D /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 69B854B72B4587F2006BF74D /* FirebaseRemoteConfig */; };
 		69B854BA2B4587F2006BF74D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 69B854B92B4587F2006BF74D /* FirebaseStorage */; };
 		69B854BD2B53AF17006BF74D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B854BC2B53AF17006BF74D /* User.swift */; };
+		69BB360B2BAF3FF900E011FD /* videoSpacificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB360A2BAF3FF900E011FD /* videoSpacificationViewController.swift */; };
+		69BB360D2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB360C2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift */; };
+		69BB360F2BAF994D00E011FD /* QuizSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB360E2BAF994D00E011FD /* QuizSaveViewController.swift */; };
+		69BB36112BAF996400E011FD /* SummarySaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB36102BAF996400E011FD /* SummarySaveViewController.swift */; };
+		69BB36132BAF9EE300E011FD /* QuizSaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +107,7 @@
 		69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantTableViewCell.swift; sourceTree = "<group>"; };
 		69384F5F2B95AB36005583E6 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		69384F632B9656DC005583E6 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		694747B72BA4E73100C58037 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewCell.swift; sourceTree = "<group>"; };
 		694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		6956570D2B5E39790040D532 /* ProjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -135,10 +143,14 @@
 		69B8549E2B45822F006BF74D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		69B854A02B458267006BF74D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		69B854A22B458293006BF74D /* ProjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
-		69B854A42B4582B0006BF74D /* SmartAssistantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAssistantViewController.swift; sourceTree = "<group>"; };
 		69B854A62B4582C0006BF74D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		69B854A82B4582D8006BF74D /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		69B854BC2B53AF17006BF74D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		69BB360A2BAF3FF900E011FD /* videoSpacificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoSpacificationViewController.swift; sourceTree = "<group>"; };
+		69BB360C2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoSpacificationCollectionViewCell.swift; sourceTree = "<group>"; };
+		69BB360E2BAF994D00E011FD /* QuizSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSaveViewController.swift; sourceTree = "<group>"; };
+		69BB36102BAF996400E011FD /* SummarySaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarySaveViewController.swift; sourceTree = "<group>"; };
+		69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSaveTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +165,12 @@
 				69875F772B53C16900C78255 /* GoogleSignIn in Frameworks */,
 				69B854B22B4587F2006BF74D /* FirebaseDatabaseSwift in Frameworks */,
 				695657192B6238270040D532 /* YoutubePlayerView in Frameworks */,
+				694747B12BA0930100C58037 /* SwiftDataTables in Frameworks */,
 				69B854B42B4587F2006BF74D /* FirebaseFirestore in Frameworks */,
 				69B854B82B4587F2006BF74D /* FirebaseRemoteConfig in Frameworks */,
 				69384F562B9493DE005583E6 /* Alamofire in Frameworks */,
 				694807C42B5D14BD000AEEC5 /* IQKeyboardManagerSwift in Frameworks */,
+				694747BB2BA9C81600C58037 /* SwiftEntryKit in Frameworks */,
 				695941622B590C9500E34446 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				695657212B722A2E0040D532 /* SwiftOpenAI in Frameworks */,
 				6967183C2B57BA0600C57930 /* NVActivityIndicatorView in Frameworks */,
@@ -276,6 +290,8 @@
 				69384F5D2B94DF3C005583E6 /* AssistantTableViewCell.swift */,
 				694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */,
 				694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */,
+				69BB360C2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift */,
+				69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */,
 				6956570D2B5E39790040D532 /* ProjectCollectionViewCell.swift */,
 			);
 			path = Views;
@@ -293,9 +309,11 @@
 				695657152B6231350040D532 /* HelpViewController.swift */,
 				69B854A22B458293006BF74D /* ProjectsViewController.swift */,
 				696718332B56483D00C57930 /* VideoViewController.swift */,
-				69B854A42B4582B0006BF74D /* SmartAssistantViewController.swift */,
+				69BB360A2BAF3FF900E011FD /* videoSpacificationViewController.swift */,
 				69B854A62B4582C0006BF74D /* QuizViewController.swift */,
+				69BB360E2BAF994D00E011FD /* QuizSaveViewController.swift */,
 				69B854A82B4582D8006BF74D /* SummaryViewController.swift */,
+				69BB36102BAF996400E011FD /* SummarySaveViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -319,6 +337,7 @@
 				69384F512B949383005583E6 /* OpenAi.swift */,
 				69384F632B9656DC005583E6 /* Download.swift */,
 				69384F5F2B95AB36005583E6 /* Chat.swift */,
+				694747B72BA4E73100C58037 /* Video.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -359,6 +378,8 @@
 				6956571B2B70BC8B0040D532 /* BonsaiController */,
 				695657202B722A2E0040D532 /* SwiftOpenAI */,
 				69384F552B9493DE005583E6 /* Alamofire */,
+				694747B02BA0930100C58037 /* SwiftDataTables */,
+				694747BA2BA9C81600C58037 /* SwiftEntryKit */,
 			);
 			productName = ExplainMe;
 			productReference = 697077FD2B3F5C8F0014C56C /* ExplainMe.app */;
@@ -442,6 +463,8 @@
 				6956571A2B70BC8B0040D532 /* XCRemoteSwiftPackageReference "Bonsai" */,
 				6956571F2B722A2E0040D532 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
 				69384F542B9493DE005583E6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				694747AF2BA0930100C58037 /* XCRemoteSwiftPackageReference "SwiftDataTables" */,
+				694747B92BA9C81600C58037 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */,
 			);
 			productRefGroup = 697077FE2B3F5C8F0014C56C /* Products */;
 			projectDirPath = "";
@@ -491,28 +514,33 @@
 				6956570E2B5E39790040D532 /* ProjectCollectionViewCell.swift in Sources */,
 				69B854962B441CDD006BF74D /* LoginViewController.swift in Sources */,
 				69B854A92B4582D8006BF74D /* SummaryViewController.swift in Sources */,
+				69BB360B2BAF3FF900E011FD /* videoSpacificationViewController.swift in Sources */,
 				697078052B3F5C8F0014C56C /* ViewController.swift in Sources */,
 				697078012B3F5C8F0014C56C /* AppDelegate.swift in Sources */,
+				69BB360D2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift in Sources */,
 				695657122B5E7A970040D532 /* Firebase manager.swift in Sources */,
 				696718342B56483D00C57930 /* VideoViewController.swift in Sources */,
 				69384F582B9493F4005583E6 /* API.swift in Sources */,
 				69384F642B9656DC005583E6 /* Download.swift in Sources */,
 				694807C12B59C692000AEEC5 /* ChatTableViewCell.swift in Sources */,
 				695657102B5E795B0040D532 /* App manager.swift in Sources */,
+				69BB360F2BAF994D00E011FD /* QuizSaveViewController.swift in Sources */,
 				69B854A72B4582C0006BF74D /* QuizViewController.swift in Sources */,
 				69384F5A2B949402005583E6 /* OpenAI.swift in Sources */,
 				69B8549F2B45822F006BF74D /* HomeViewController.swift in Sources */,
 				69384F602B95AB36005583E6 /* Chat.swift in Sources */,
+				69BB36132BAF9EE300E011FD /* QuizSaveTableViewCell.swift in Sources */,
 				69B854BD2B53AF17006BF74D /* User.swift in Sources */,
 				694807BF2B591209000AEEC5 /* QuizTableViewCell.swift in Sources */,
 				69B8549A2B441D26006BF74D /* ResetPasswordViewController.swift in Sources */,
-				69B854A52B4582B0006BF74D /* SmartAssistantViewController.swift in Sources */,
 				697078032B3F5C8F0014C56C /* SceneDelegate.swift in Sources */,
 				696718362B5694E300C57930 /* Extention TextField.swift in Sources */,
 				69384F5E2B94DF3C005583E6 /* AssistantTableViewCell.swift in Sources */,
 				69B854A32B458293006BF74D /* ProjectsViewController.swift in Sources */,
 				69B854A12B458267006BF74D /* ProfileViewController.swift in Sources */,
 				69B854982B441CFA006BF74D /* SignUpViewController.swift in Sources */,
+				694747B82BA4E73100C58037 /* Video.swift in Sources */,
+				69BB36112BAF996400E011FD /* SummarySaveViewController.swift in Sources */,
 				69B8549D2B4420CB006BF74D /* Extention View.swift in Sources */,
 				695657162B6231350040D532 /* HelpViewController.swift in Sources */,
 				696718382B569F2F00C57930 /* Extention View Controller.swift in Sources */,
@@ -900,6 +928,22 @@
 				minimumVersion = 5.8.1;
 			};
 		};
+		694747AF2BA0930100C58037 /* XCRemoteSwiftPackageReference "SwiftDataTables" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pavankataria/SwiftDataTables";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.2;
+			};
+		};
+		694747B92BA9C81600C58037 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huri000/SwiftEntryKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		694807C22B5D14BD000AEEC5 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
@@ -963,6 +1007,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 69384F542B9493DE005583E6 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		694747B02BA0930100C58037 /* SwiftDataTables */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694747AF2BA0930100C58037 /* XCRemoteSwiftPackageReference "SwiftDataTables" */;
+			productName = SwiftDataTables;
+		};
+		694747BA2BA9C81600C58037 /* SwiftEntryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 694747B92BA9C81600C58037 /* XCRemoteSwiftPackageReference "SwiftEntryKit" */;
+			productName = SwiftEntryKit;
 		};
 		694807C32B5D14BD000AEEC5 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;

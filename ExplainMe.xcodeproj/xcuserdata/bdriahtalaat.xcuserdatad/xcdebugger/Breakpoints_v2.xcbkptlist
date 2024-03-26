@@ -7,333 +7,143 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Models/App manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "updateEmail(newEmail:password:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A - dd11db54982979ac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "2864">
-               </Location>
-               <Location
-                  uuid = "3C481D4A-3307-4293-BA02-0E6BC4971D9A - dd11db549829784d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "2744">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Models/App manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "updateEmail(newEmail:password:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162 - dd11db54982979ac"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "80"
-                  endingLineNumber = "80"
-                  offsetFromSymbolStart = "2864">
-               </Location>
-               <Location
-                  uuid = "D56FCE2B-6119-4D9C-AED7-20C2D79F2162 - dd11db549829784d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "81"
-                  endingLineNumber = "81"
-                  offsetFromSymbolStart = "2744">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C283E037-66F5-4920-91B5-403C89578B25"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Models/App manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "updateEmail(newEmail:password:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - e1650401a02df963"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "43"
-                  endingLineNumber = "43"
-                  offsetFromSymbolStart = "1872">
-               </Location>
-               <Location
-                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - e1650401a02df900"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "1872">
-               </Location>
-               <Location
-                  uuid = "C283E037-66F5-4920-91B5-403C89578B25 - dd11db5498297510"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "44"
-                  endingLineNumber = "44"
-                  offsetFromSymbolStart = "1936">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Models/App manager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "updateEmail(newEmail:password:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - e1650401a02dfe08"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "548">
-               </Location>
-               <Location
-                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - e1650401a02dfe29"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(email: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "548">
-               </Location>
-               <Location
-                  uuid = "9DF2C09C-1AF3-46A7-A0CD-05D8D7F1B9D9 - dd11db5498297239"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.AppManager.updateEmail(newEmail: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Models/App%20manager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "612">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B"
+            uuid = "1C16B8F4-70B3-4DD0-9FAC-077E5D493C06"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExplainMe/Controllers/VideoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "sendButton(_:)"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "getThumbnailFromImage(videoId:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B - 8f07d64326b6c97"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.VideoViewController.sendButton(Any) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/VideoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
-                  offsetFromSymbolStart = "952">
-               </Location>
-               <Location
-                  uuid = "66E40D14-4B10-43F5-8BC3-AA3931AC7A5B - 8f07d64326b6c97"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.VideoViewController.sendButton(Any) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/VideoViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
-                  offsetFromSymbolStart = "1040">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A5631188-FE8D-4D08-819C-A173C60BB112"
+            uuid = "F346650D-A0C7-40E1-99BE-233B7EC527ED"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Controllers/QuizViewController.swift"
+            filePath = "ExplainMe/Controllers/VideoViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "submitButton(_:)"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getThumbnailFromImage(videoId:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A5631188-FE8D-4D08-819C-A173C60BB112 - f292b3aa8a5f63d3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.QuizViewController.submitButton(Any) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/QuizViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "A5631188-FE8D-4D08-819C-A173C60BB112 - 27bd71e0b46ce3e4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.QuizViewController.submitButton(Any) -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/QuizViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "40">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C438C6C4-E6AF-476A-862A-67D56EB73DC1"
+            uuid = "04A4833D-0E03-4FC7-ABDF-B572A0DDBFEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/SummaryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D6AC615-AE97-426E-B1F5-BC62049F101E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/VideoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "quizButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFDC8F26-71E7-45FF-A5DE-D63D730771F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/videoSpacificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD50D64E-29C6-4BC4-9D82-673EED850FF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/QuizSaveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72A8EFBA-1BEE-4D2F-8580-F4B2D7DDCAB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/videoSpacificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0252E899-BBC0-4759-B5B3-C54B6E1037BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/videoSpacificationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "collectionView(_:didSelectItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AC542DC-704A-4531-84F1-2F53AF68BB75"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExplainMe/Controllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "submitButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -341,49 +151,113 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E"
-            shouldBeEnabled = "Yes"
+            uuid = "C1026525-DDD4-48C5-AA34-F72FB763B334"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ExplainMe/Controllers/SummaryViewController.swift"
+            filePath = "ExplainMe/Controllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "submitButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0582F013-FFB2-4E49-8A7F-E1C856596200"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Network/OpenAI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "downloadYouTubeVideo(url:videoQuality:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29D093AA-3BC0-4EEA-BE70-F787334A7D40"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Network/OpenAI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "downloadYouTubeVideo(url:videoQuality:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB5A944B-F4F8-4DA2-BBF2-3B1F03C063FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Models/App manager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "add1(summary:quiz:videoURL:answer:videoTitle:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7ED5EC7-2EAA-41C5-BDF8-1BEF7BA4934A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Controllers/QuizSaveViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E - 1dd1ac54c785e14f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "ExplainMe.SummaryViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/SummaryViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "1408">
-               </Location>
-               <Location
-                  uuid = "B7AFDAF1-7BBE-434F-87AD-9E7FC4D5224E - 69c64e317b5b3679"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Any) -&gt; () in ExplainMe.SummaryViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "ExplainMe"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bdriahtalaat/Desktop/Senior%20project/ExplainMe/ExplainMe/Controllers/SummaryViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "796">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D54E2459-CEF2-458E-B003-189BF09424B0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Network/OpenAI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "OpenAi"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D06B198D-3D16-4F18-AE3C-3A03C950DF66"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExplainMe/Network/OpenAI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "OpenAi"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

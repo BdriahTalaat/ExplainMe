@@ -9,6 +9,7 @@ import UIKit
 import NVActivityIndicatorView
 import YoutubePlayerView
 
+@available(iOS 16.0, *)
 class HomeViewController: UIViewController {
 
     //MARK: OUTLETS
@@ -17,7 +18,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var videoLinkTextField: UITextField!
     
     //MARK: VARIABLE
-   // var videoLink = ""
+    
     
     //MARK: LIFE CYCLE
     override func viewDidLoad() {
@@ -25,48 +26,37 @@ class HomeViewController: UIViewController {
 
         submitButton.setCircle(View: submitButton, value: 8)
         submitButton.isEnabled = false
-    }
+        
+        }
     
     //MARK: FUNCTIONS
     
-    // This function uses a regular expression to extract the YouTube video ID from a given URL. If the URL matches the expected format, it returns the video ID; otherwise, it returns nil
-    
-    func extractYouTubeVideoID(from urlString: String) -> String? {
-        // Regular expression pattern for matching YouTube video IDs
-        let pattern = #"(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([^"&?\/\s]{11})"#
-        
-        do {
-            let regex = try NSRegularExpression(pattern: pattern, options: .caseInsensitive)
-            let range = NSRange(location: 0, length: urlString.utf16.count)
-            if let match = regex.firstMatch(in: urlString, options: [], range: range) {
-                let videoIDRange = Range(match.range(at: 1), in: urlString)
-                return videoIDRange.map { String(urlString[$0]) }
-            }
-        } catch {
-            print("Error creating regular expression: \(error)")
-        }
-
-        return nil
-    }
 
     
     //MARK: ACTIONS
     @IBAction func submitButton(_ sender: Any) {
         
-        if let videoID = extractYouTubeVideoID(from: videoLinkTextField.text!) {
+        if let videoID = AppManager.shared.extractYouTubeVideoID(from: videoLinkTextField.text!) {
             
             let vc = storyboard!.instantiateViewController(withIdentifier: "video screen") as! VideoViewController
             
-            vc.videoLink = videoID
+            vc.videoLinkId = videoID
+            vc.videoLink = videoLinkTextField.text!
             
             loaderView.startAnimating()
             
-            OpenAi.tranciption(file: "") { response in
-                vc.transcribe = "\(response)"
-                self.loaderView.stopAnimating()
-                self.navigationController?.pushViewController(vc, animated: false)
-                self.videoLinkTextField.text = nil
+            OpenAi.downloadYouTubeVideo(url: videoLinkTextField.text!, videoQuality: "Medium") { response in
                 
+                vc.transcribe = "\(response)"
+                
+                OpenAi.getVideoDetails(url: self.videoLinkTextField.text!) { response in
+                 
+                    //print(response)
+                    vc.videoTitle = "\(response)"
+                    self.loaderView.stopAnimating()
+                    self.navigationController?.pushViewController(vc, animated: false)
+                    self.videoLinkTextField.text = nil
+                }
             }
             
         } else {
@@ -90,6 +80,14 @@ class HomeViewController: UIViewController {
             submitButton.isEnabled = true
         }
     }
+    
+    @IBAction func helpButton(_ sender: Any) {
+        let vc = storyboard!.instantiateViewController(withIdentifier: "help screen") as! HelpViewController
+        
+        vc.navigationItem.title = "Help"
+        navigationController?.pushViewController(vc, animated: false)
+    }
+    
 }
 
 
