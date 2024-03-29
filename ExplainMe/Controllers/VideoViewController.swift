@@ -400,6 +400,8 @@ extension VideoViewController : UITableViewDelegate,UITableViewDataSource{
             messageCell.assistantViewMessage.isHidden = false
             
         }
+        
+        
 
         return messageCell
         

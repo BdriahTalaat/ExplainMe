@@ -124,47 +124,7 @@ class OpenAi:API {
         }
     }
 
-    
-    /*static func tranciption(file:String , completionHandler : @escaping(Any)->()){
-        
-        let URLTranciption = "\(OpenAi.baseURL)audio/transcriptions"
-        let parameters: [String: Any] = [
-            "file": URL(fileURLWithPath:file),
-            "model": "whisper-1"
-        ]
-        
-        
-        AF.upload(
-            multipartFormData: { multipartFormData in
-                for (key, value) in parameters {
-                    if let fileURL = value as? URL {
-                        if let data = try? Data(contentsOf: fileURL) {
-                            multipartFormData.append(data, withName: key, fileName: fileURL.lastPathComponent, mimeType: "video/mp4")
-                        }
-                    } else if let data = "\(value)".data(using: .utf8) {
-                        multipartFormData.append(data, withName: key)
-                    }
-                }
-            },
-            to: URLTranciption,
-            method: .post,
-            headers: OpenAi.headers
-        )
-        //.validate()
-        .responseJSON { response in
-            switch response.result {
-                
-            case .success(let text):
-                print("Response: \(text)")
-                completionHandler(text)
-                
-            case .failure(let error):
-                print("Error: \(error)")
-                
-                
-            }
-        }
-    }*/
+
     
     //MARK: GET CHATGPT (from chat knowelege)
     static func chatKnowlege(text:Any , completionHandler : @escaping(Any)->()){
@@ -199,7 +159,7 @@ class OpenAi:API {
         let parameters:[String:Any] =
         [
             "model":"gpt-3.5-turbo",
-            "messages":[["role": "user","content": "can You answer my accordingly this text \(contentVideo) \n \(text) \n if request not found in text send me I dont knowlege "]]
+            "messages":[["role": "user","content": "can You answer my accordingly this data \(contentVideo) \n \(text) \n if request not found in data send me I dont knowlege "]]
             
         ]
         
@@ -225,7 +185,7 @@ class OpenAi:API {
         let parameters:[String:Any] =
         [
             "model":"gpt-3.5-turbo",
-            "messages":[["role": "user","content": "can You answer my accordingly this text \(contentVideo) and your knowlege \n \(text) "]]
+            "messages":[["role": "user","content": "can You answer my accordingly this data \(contentVideo) and your knowlege \n \(text) "]]
             
         ]
         

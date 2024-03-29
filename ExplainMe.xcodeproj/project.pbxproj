@@ -68,6 +68,7 @@
 		69BB360F2BAF994D00E011FD /* QuizSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB360E2BAF994D00E011FD /* QuizSaveViewController.swift */; };
 		69BB36112BAF996400E011FD /* SummarySaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB36102BAF996400E011FD /* SummarySaveViewController.swift */; };
 		69BB36132BAF9EE300E011FD /* QuizSaveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */; };
+		69C6B8B72BB4EE6200348B27 /* HelpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C6B8B62BB4EE6200348B27 /* HelpCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		69BB360E2BAF994D00E011FD /* QuizSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSaveViewController.swift; sourceTree = "<group>"; };
 		69BB36102BAF996400E011FD /* SummarySaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummarySaveViewController.swift; sourceTree = "<group>"; };
 		69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSaveTableViewCell.swift; sourceTree = "<group>"; };
+		69C6B8B62BB4EE6200348B27 /* HelpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 				694807BE2B591209000AEEC5 /* QuizTableViewCell.swift */,
 				694807C02B59C692000AEEC5 /* ChatTableViewCell.swift */,
 				69BB360C2BAF819A00E011FD /* videoSpacificationCollectionViewCell.swift */,
+				69C6B8B62BB4EE6200348B27 /* HelpCollectionViewCell.swift */,
 				69BB36122BAF9EE300E011FD /* QuizSaveTableViewCell.swift */,
 				6956570D2B5E39790040D532 /* ProjectCollectionViewCell.swift */,
 			);
@@ -514,6 +517,7 @@
 				6956570E2B5E39790040D532 /* ProjectCollectionViewCell.swift in Sources */,
 				69B854962B441CDD006BF74D /* LoginViewController.swift in Sources */,
 				69B854A92B4582D8006BF74D /* SummaryViewController.swift in Sources */,
+				69C6B8B72BB4EE6200348B27 /* HelpCollectionViewCell.swift in Sources */,
 				69BB360B2BAF3FF900E011FD /* videoSpacificationViewController.swift in Sources */,
 				697078052B3F5C8F0014C56C /* ViewController.swift in Sources */,
 				697078012B3F5C8F0014C56C /* AppDelegate.swift in Sources */,

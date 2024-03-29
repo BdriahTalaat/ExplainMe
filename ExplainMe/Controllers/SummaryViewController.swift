@@ -168,13 +168,14 @@ class SummaryViewController: UIViewController {
     
     @IBAction func downloadButton(_ sender: Any) {
        
-        if summaryType == "normal"{
+        convertToPdfFileAndShare(text: summaryTextView.text!)
+        /*if summaryType == "normal"{
             convertToPdfFileAndShare(text: summaryTextView.text!)
         }else{
             if let pdfData = convertDataTableToPDF(dataTable: dataTable) {
                         saveAndSharePDF(pdfData: pdfData)
             }
-        }
+        }*/
         
     }
     

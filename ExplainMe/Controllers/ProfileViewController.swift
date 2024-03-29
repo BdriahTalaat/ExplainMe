@@ -42,9 +42,6 @@ class ProfileViewController: UIViewController {
     }
     
     //MARK: ACTIONS
-
-    @IBAction func helpButton(_ sender: Any) {
-    }
     
     @IBAction func userNameEditButton(_ sender: UIButton) {
         

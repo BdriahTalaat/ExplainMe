@@ -26,3 +26,7 @@ struct Video : Identifiable,Codable{
 
 }
 
+struct Help{
+    var image : UIImage
+    var text : String
+}

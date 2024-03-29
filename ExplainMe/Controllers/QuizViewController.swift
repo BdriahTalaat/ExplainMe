@@ -139,8 +139,11 @@ class QuizViewController: UIViewController, UITextViewDelegate {
     @IBAction func submitButton(_ sender: Any) {
         
         loaderView.startAnimating()
-            
-        OpenAi.answer(text: "Are these correct answers \(self.answers) to these questions \(self.question) if were answers not correct then correct the wrong answer and give me mark ") { response in
+         
+        let format = "No, the provided answers [Afafaf, Dbdbdb, Dbdbx, Xbxbdb, Fnffn] are not correct for the questions given. /n /n Correct answers and marks for each question are as follows:/n 1. What are the two matrices given in the video? /n Correct answer: E and D /n Mark: 0/1 /n 2. Explain the conditions that need to be met for matrix multiplication to be valid. /n  Correct answer: The number of columns in the first matrix must equal the number of rows in the second matrix. /n Mark: 0/1 /n 3. Why does order matter when multiplying matrices? /n Correct answer: The order matters because matrix multiplication is not commutative, meaning AB may not equal BA. /n Mark: 0/1 \n \n Total mark is 0/5"
+       
+        
+        OpenAi.answer(text: "Are these \(self.answers) correct answers to these questions \(self.question)? if my answers were not correct answer and provide correct answer and provide mark like these format \(format)") { response in
             
             self.loaderView.stopAnimating()
             
